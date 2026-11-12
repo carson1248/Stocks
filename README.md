@@ -159,8 +159,9 @@ Game Images
 ---
 Screen Stocks:
 
-<img width="591" height="745" alt="image" src="https://github.com/user-attachments/assets/2bfe42cb-47bc-4dd8-b1dd-ca11251cc8de" />
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/e41ea54d-8af6-4a82-a937-961c83d57380" />
 ---
-Chrome Dupe: 
+Chrome Dupe:
+
 <img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/78a0225f-07e5-4a20-b203-7ae9144d1d05" />
 
