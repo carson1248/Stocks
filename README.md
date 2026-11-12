@@ -153,3 +153,13 @@ Put it inside another HTML file as an `<iframe>`. Works from a Blob URL. Works f
 Made with ❤️ by Carson Laba
 
 </div>
+
+---
+Game Images
+---
+Screen Stocks:
+<img width="591" height="745" alt="image" src="https://github.com/user-attachments/assets/2bfe42cb-47bc-4dd8-b1dd-ca11251cc8de" />
+---
+Chrome Dupe: 
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/78a0225f-07e5-4a20-b203-7ae9144d1d05" />
+
