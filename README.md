@@ -2,12 +2,6 @@
 
 # Games, by [Carson Labs](https://github.com/carson1248/games)
 ---
-## What is this?
-
-GUST is a full-featured web proxy that lives entirely inside a single HTML file, allowing you to use it without any setup, hosting, or terminal access. It was built by the Nautilus Labs team to be a replacement for every single other proxy out there, and to put an end to school blocked proxies once and for all. 
-
----
-
 ## Why schools can't block it 
 
 Every single web proxy out there relies on something called a **Service Worker**, a background script that intercepts network requests before they reach the browser. It's an integral part of any other web proxy you use, allowing the proxy to communicate with its server and proxy your requests, but Service Workers ALWAYS require a live server to function. That means traditional proxies only work when hosted at a specific URL. Block that URL, and the proxy is dead. You're probably already familiar with the cat-and-mouse game between you and your admin, where someone makes a link, it gets used for a day or two, then gets blocked.
