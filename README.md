@@ -47,18 +47,6 @@ The short version: most blockers can only block URLs. GUST is a file. You can't 
 
 ---
 
-## Beauty Shots
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cb9d573e-1e03-4abf-b74f-643a2f7eac72" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/27889e79-d7cd-4c37-899a-3ba628d8d070" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bcb54134-3d65-402f-a348-2dda9b933ad3" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/19d59861-fc7e-43f1-8f68-43a34cf53b7d" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ce7c4635-ff48-48be-a774-2fd95f179122" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1af1b00c-2439-4532-8aeb-97b4018cc049" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6fe149db-1370-4157-ab80-c3ceb7eb627e" />
-
-
----
-
 ## How it works
 
 When you type a URL, GUST fetches the entire page through a WebAssembly HTTP client, rewrites every resource URL, injects a proxy runtime script, and renders the result in a sandboxed iframe. It's important to note that the iframe is purely for sandboxing, and the sites you visit inside GUST have already been proxied. In other low-quality "proxies" that present themselves as able to work without a serviceworker, an iframe is often used to simply point to another URL (e.g., <iframe src="[https://blocked-site.com](https://blocked-site.com)">), with no additional rewriting or proxying at all. This fails immediately because filters can see the request to the blocked domain and kills it. Inside GUST, GUST fetches raw data through a Wisp tunnel and scrubs the code to redirect every link and resource back to itself, it injects that modified payload into the iframe as a sandboxed environment. This ensures the proxied site can run its own scripts and styles without breaking the GUST interface or leaking your real activity to the network filter, and ensures the only request filters can see is a request to the Wisp server. Here's what that looks like step by step:
