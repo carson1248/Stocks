@@ -158,6 +158,7 @@ Made with ❤️ by Carson Laba
 Game Images
 ---
 Screen Stocks:
+
 <img width="591" height="745" alt="image" src="https://github.com/user-attachments/assets/2bfe42cb-47bc-4dd8-b1dd-ca11251cc8de" />
 ---
 Chrome Dupe: 
