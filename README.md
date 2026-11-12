@@ -7,7 +7,7 @@
 Every single web proxy out there relies on something called a **Service Worker**, a background script that intercepts network requests before they reach the browser. It's an integral part of any other web proxy you use, allowing the proxy to communicate with its server and proxy your requests, but Service Workers ALWAYS require a live server to function. That means traditional proxies only work when hosted at a specific URL. Block that URL, and the proxy is dead. You're probably already familiar with the cat-and-mouse game between you and your admin, where someone makes a link, it gets used for a day or two, then gets blocked.
 
 School network filters, admin installed extensions (think Securly,  Lightspeed Systems, Securly, Linewize, Blocksi, etc.) and admin-controlled browsers (like Chromebook MDM policies) are very good at exactly this. Your school maintains blocklists, with specific sites added every day to this list of sites you can't access. Many filtering extensions also have more advanced features, where they read a links metadata to detect proxy patterns and automatically add them to the blocklist. An even higher number of these extensions control what can run in the background, which is a big achilles heel for every single current proxy site available. 
-GUST doesn't use Service Workers at all. Heres what we came up with instead:
+"Games" doesn't use Service Workers at all. Heres what we came up with instead:
 
 <img width="1440" height="1040" alt="image" src="https://github.com/user-attachments/assets/f5403020-c0b4-4d89-b795-cfa11b898c78" /><br>
 
