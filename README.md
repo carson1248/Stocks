@@ -160,8 +160,17 @@ Game Images
 Screen Stocks:
 
 <img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/e41ea54d-8af6-4a82-a937-961c83d57380" />
+
 ---
 Chrome Dupe:
 
 <img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/78a0225f-07e5-4a20-b203-7ae9144d1d05" />
+
+---
+Ipod Mp3
+
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/ad555b70-1ca1-41ab-aca7-e92872edf33f" />
+
+---
+
 
